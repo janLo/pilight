@@ -1,0 +1,2638 @@
+{
+  "protocols": [
+    {
+      "devices": [
+        "ping"
+      ],
+      "name": "ping",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "ip"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "disconnected"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "connected"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "arping"
+      ],
+      "name": "arping",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "ip"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "mac"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "disconnected"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "connected"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "generic_webcam"
+      ],
+      "name": "generic_webcam",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "url"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "generic_weather"
+      ],
+      "name": "generic_weather",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "battery"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "humidity"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "generic_switch"
+      ],
+      "name": "generic_switch",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "generic_screen"
+      ],
+      "name": "generic_screen",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "down"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "up"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "generic_label"
+      ],
+      "name": "generic_label",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "color"
+        },
+        {
+          "data_type": [
+            "string",
+            "number"
+          ],
+          "name": "label"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "generic_dimmer"
+      ],
+      "name": "generic_dimmer",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "dimlevel"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "raw"
+      ],
+      "name": "raw",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "repeats"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "code"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "pilight_firmware"
+      ],
+      "name": "pilight_firmware",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "hpf"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "lpf"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "version"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "pilight_firmware"
+      ],
+      "name": "pilight_firmware",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "hpf"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "lpf"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "version"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "relay"
+      ],
+      "name": "relay",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "gpio"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "lm76"
+      ],
+      "name": "lm76",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "lm75"
+      ],
+      "name": "lm75",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "gpio_switch"
+      ],
+      "name": "gpio_switch",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "gpio"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "ds18s20"
+      ],
+      "name": "ds18s20",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "ds18b20"
+      ],
+      "name": "ds18b20",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "am2302",
+        "dht22"
+      ],
+      "name": "dht22",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "gpio"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "humidity"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "dht11"
+      ],
+      "name": "dht11",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "gpio"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "humidity"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "bmp085",
+        "bmp180"
+      ],
+      "name": "bmp180",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "pressure"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "oversampling"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "kodi",
+        "xbmc"
+      ],
+      "name": "xbmc",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "port"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "server"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "media"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "action"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "wunderground"
+      ],
+      "name": "wunderground",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "update"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "sun"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "sunset"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "sunrise"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "country"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "location"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "api"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "humidity"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "sunriseset"
+      ],
+      "name": "sunriseset",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "sun"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "sunset"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "sunrise"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "latitude"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "longitude"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "program"
+      ],
+      "name": "program",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "stopped"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "pending"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "running"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "arguments"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "pid"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "program"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "stop-command"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "start-command"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "name"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "openweathermap"
+      ],
+      "name": "openweathermap",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "update"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "sun"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "sunset"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "sunrise"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "country"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "location"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "humidity"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "lirc"
+      ],
+      "name": "lirc",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "remote"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "button"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "repeat"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "code"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "datetime"
+      ],
+      "name": "datetime",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "dst"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "second"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "minute"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "hour"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "weekday"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "day"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "month"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "year"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "latitude"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "longitude"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "cpu_temp"
+      ],
+      "name": "cpu_temp",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "x10"
+      ],
+      "name": "x10",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "tfa30"
+      ],
+      "name": "tfa30",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "humidity"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "GT-WT-01",
+        "NC7104",
+        "soens",
+        "conrad_weather",
+        "tfa"
+      ],
+      "name": "tfa",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "battery"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "humidity"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "channel"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "teknihall"
+      ],
+      "name": "teknihall",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "battery"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "humidity"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "techlico_switch"
+      ],
+      "name": "techlico_switch",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "tcm"
+      ],
+      "name": "tcm",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "battery"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "humidity"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "silvercrest"
+      ],
+      "name": "silvercrest",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unitcode"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "systemcode"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "selectremote"
+      ],
+      "name": "selectremote",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "secudo_smoke_sensor"
+      ],
+      "name": "secudo_smoke_sensor",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "alarm"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "sc2262"
+      ],
+      "name": "sc2262",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "closed"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "opened"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unitcode"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "systemcode"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "promax",
+        "rsl366"
+      ],
+      "name": "rsl366",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "programcode"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "systemcode"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "rev3_switch"
+      ],
+      "name": "rev3_switch",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "rev2_switch"
+      ],
+      "name": "rev2_switch",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "rev1_switch"
+      ],
+      "name": "rev1_switch",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "rc102",
+        "rc101"
+      ],
+      "name": "rc101",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "all"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "quigg_screen"
+      ],
+      "name": "quigg_screen",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "learn"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "all"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "down"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "up"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "quigg_gt9000"
+      ],
+      "name": "quigg_gt9000",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "quigg_gt7000"
+      ],
+      "name": "quigg_gt7000",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "learn"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "all"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "quigg_gt1000"
+      ],
+      "name": "quigg_gt1000",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "num"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "super"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "all"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "pollin"
+      ],
+      "name": "pollin",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unitcode"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "systemcode"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "ninjablocks_weather"
+      ],
+      "name": "ninjablocks_weather",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "humidity"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "mumbi"
+      ],
+      "name": "mumbi",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unitcode"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "systemcode"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "logilink_switch"
+      ],
+      "name": "logilink_switch",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unitcode"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "systemcode"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "impuls"
+      ],
+      "name": "impuls",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "programcode"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "systemcode"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "heitech"
+      ],
+      "name": "heitech",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unitcode"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "systemcode"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "ev1527"
+      ],
+      "name": "ev1527",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "closed"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "opened"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unitcode"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "eurodomest_switch"
+      ],
+      "name": "eurodomest_switch",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "learn"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "all"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "maxitronic",
+        "brennenstuhl",
+        "elro_800_switch"
+      ],
+      "name": "elro_800_switch",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unitcode"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "systemcode"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "elro_800_contact"
+      ],
+      "name": "elro_800_contact",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "closed"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "opened"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unitcode"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "systemcode"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "elro_400_switch"
+      ],
+      "name": "elro_400_switch",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unitcode"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "systemcode"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "elro_300_switch"
+      ],
+      "name": "elro_300_switch",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "all"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unitcode"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "systemcode"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "ehome"
+      ],
+      "name": "ehome",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "daycom"
+      ],
+      "name": "daycom",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "systemcode"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "conrad_rsl_switch"
+      ],
+      "name": "conrad_rsl_switch",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "learn"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "all"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "conrad_rsl_contact"
+      ],
+      "name": "conrad_rsl_contact",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "closed"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "opened"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "cleverwatts"
+      ],
+      "name": "cleverwatts",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "all"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "clarus_switch"
+      ],
+      "name": "clarus_switch",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "beamish_switch"
+      ],
+      "name": "beamish_switch",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "all"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "auriol"
+      ],
+      "name": "auriol",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "battery"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "channel"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "duwi",
+        "byebyestandby",
+        "intertechno_old",
+        "cogex",
+        "kaku_switch_old"
+      ],
+      "name": "arctech_switch_old",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "intertechno_switch",
+        "coco_switch",
+        "nexa_switch",
+        "dio_switch",
+        "kaku_switch"
+      ],
+      "name": "arctech_switch",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "learn"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "all"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "kaku_screen_old"
+      ],
+      "name": "arctech_screen_old",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "down"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "up"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "dio_screen",
+        "kaku_screen"
+      ],
+      "name": "arctech_screen",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "learn"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "all"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "down"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "up"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "kaku_motion"
+      ],
+      "name": "arctech_motion",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "kaku_dusk"
+      ],
+      "name": "arctech_dusk",
+      "options": [
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "dawn"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "dusk"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "kaku_dimmer"
+      ],
+      "name": "arctech_dimmer",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "learn"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "all"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "off"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "on"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "dimlevel"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "dio_contact",
+        "kaku_contact"
+      ],
+      "name": "arctech_contact",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "all"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "closed"
+        },
+        {
+          "data_type": [
+            "string"
+          ],
+          "name": "opened"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "unit"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "balance_rf_ws105",
+        "meteoscan_w1XX",
+        "hama_ews1500",
+        "ventus_wsxxx",
+        "auriol_h13726",
+        "alecto_wx500"
+      ],
+      "name": "alecto_wx500",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "windgust"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "winddir"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "windavg"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "humidity"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "battery"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "alecto_wsd17"
+      ],
+      "name": "alecto_wsd17",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "iboutique",
+        "alecto_ws1700"
+      ],
+      "name": "alecto_ws1700",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "battery"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "humidity"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "id"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "temperature"
+        }
+      ]
+    },
+    {
+      "devices": [
+        "process"
+      ],
+      "name": "process",
+      "options": [
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "ram"
+        },
+        {
+          "data_type": [
+            "number"
+          ],
+          "name": "cpu"
+        }
+      ]
+    }
+  ]
+}
