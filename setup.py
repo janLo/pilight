@@ -19,5 +19,6 @@ setup(
     packages=find_packages(),
     include_package_data=True,  # Accept all data files and directories matched by MANIFEST.in or found in source control
     keywords=['pilight', '433', 'light'],
-    platforms='any'
+    platforms='any',
+    install_requires=["voluptuous"]
 )
