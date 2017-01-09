@@ -7,19 +7,19 @@
       "name": "ping",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "ip"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "disconnected"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "connected"
@@ -33,25 +33,25 @@
       "name": "arping",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "ip"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "mac"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "disconnected"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "connected"
@@ -65,13 +65,13 @@
       "name": "generic_webcam",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "url"
@@ -85,25 +85,25 @@
       "name": "generic_weather",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "battery"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "humidity"
@@ -117,19 +117,19 @@
       "name": "generic_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -143,19 +143,19 @@
       "name": "generic_screen",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "down"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "up"
@@ -169,20 +169,20 @@
       "name": "generic_label",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "color"
         },
         {
-          "data_type": [
+          "vartype": [
             "string",
             "number"
           ],
           "name": "label"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
@@ -196,25 +196,25 @@
       "name": "generic_dimmer",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "dimlevel"
@@ -228,13 +228,13 @@
       "name": "raw",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "repeats"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "code"
@@ -248,19 +248,19 @@
       "name": "pilight_firmware",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "hpf"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "lpf"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "version"
@@ -274,19 +274,19 @@
       "name": "pilight_firmware",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "hpf"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "lpf"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "version"
@@ -300,19 +300,19 @@
       "name": "relay",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "gpio"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -326,13 +326,13 @@
       "name": "lm76",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -346,13 +346,13 @@
       "name": "lm75",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -366,19 +366,19 @@
       "name": "gpio_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "gpio"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -392,13 +392,13 @@
       "name": "ds18s20",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -412,13 +412,13 @@
       "name": "ds18b20",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -433,19 +433,19 @@
       "name": "dht22",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "gpio"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "humidity"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -459,19 +459,19 @@
       "name": "dht11",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "gpio"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "humidity"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -486,25 +486,25 @@
       "name": "bmp180",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "pressure"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "oversampling"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "id"
@@ -519,25 +519,25 @@
       "name": "xbmc",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "port"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "server"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "media"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "action"
@@ -551,55 +551,55 @@
       "name": "wunderground",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "update"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "sun"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "sunset"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "sunrise"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "country"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "location"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "api"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "humidity"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -613,31 +613,31 @@
       "name": "sunriseset",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "sun"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "sunset"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "sunrise"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "latitude"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "longitude"
@@ -651,55 +651,55 @@
       "name": "program",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "stopped"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "pending"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "running"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "arguments"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "pid"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "program"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "stop-command"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "start-command"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "name"
@@ -713,49 +713,49 @@
       "name": "openweathermap",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "update"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "sun"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "sunset"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "sunrise"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "country"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "location"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "humidity"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -769,25 +769,25 @@
       "name": "lirc",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "remote"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "button"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "repeat"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "code"
@@ -801,61 +801,61 @@
       "name": "datetime",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "dst"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "second"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "minute"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "hour"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "weekday"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "day"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "month"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "year"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "latitude"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "longitude"
@@ -869,13 +869,13 @@
       "name": "cpu_temp",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -889,19 +889,19 @@
       "name": "x10",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -915,19 +915,19 @@
       "name": "tfa30",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "humidity"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -945,31 +945,31 @@
       "name": "tfa",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "battery"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "humidity"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "channel"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -983,25 +983,25 @@
       "name": "teknihall",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "battery"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "humidity"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -1015,25 +1015,25 @@
       "name": "techlico_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -1047,25 +1047,25 @@
       "name": "tcm",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "battery"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "humidity"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -1079,25 +1079,25 @@
       "name": "silvercrest",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unitcode"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "systemcode"
@@ -1111,19 +1111,19 @@
       "name": "selectremote",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
@@ -1137,13 +1137,13 @@
       "name": "secudo_smoke_sensor",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "alarm"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
@@ -1157,25 +1157,25 @@
       "name": "sc2262",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "closed"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "opened"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unitcode"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "systemcode"
@@ -1190,25 +1190,25 @@
       "name": "rsl366",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "programcode"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "systemcode"
@@ -1222,25 +1222,25 @@
       "name": "rev3_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -1254,25 +1254,25 @@
       "name": "rev2_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -1286,25 +1286,25 @@
       "name": "rev1_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -1319,31 +1319,31 @@
       "name": "rc101",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "all"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
@@ -1357,37 +1357,37 @@
       "name": "quigg_screen",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "learn"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "all"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "down"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "up"
@@ -1401,25 +1401,25 @@
       "name": "quigg_gt9000",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -1433,37 +1433,37 @@
       "name": "quigg_gt7000",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "learn"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "all"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -1477,43 +1477,43 @@
       "name": "quigg_gt1000",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "num"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "super"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "all"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -1527,25 +1527,25 @@
       "name": "pollin",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unitcode"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "systemcode"
@@ -1559,25 +1559,25 @@
       "name": "ninjablocks_weather",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "humidity"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
@@ -1591,25 +1591,25 @@
       "name": "mumbi",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unitcode"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "systemcode"
@@ -1623,25 +1623,25 @@
       "name": "logilink_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unitcode"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "systemcode"
@@ -1655,25 +1655,25 @@
       "name": "impuls",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "programcode"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "systemcode"
@@ -1687,25 +1687,25 @@
       "name": "heitech",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unitcode"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "systemcode"
@@ -1719,19 +1719,19 @@
       "name": "ev1527",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "closed"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "opened"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unitcode"
@@ -1745,37 +1745,37 @@
       "name": "eurodomest_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "learn"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "all"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -1791,25 +1791,25 @@
       "name": "elro_800_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unitcode"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "systemcode"
@@ -1823,25 +1823,25 @@
       "name": "elro_800_contact",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "closed"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "opened"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unitcode"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "systemcode"
@@ -1855,25 +1855,25 @@
       "name": "elro_400_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unitcode"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "systemcode"
@@ -1887,31 +1887,31 @@
       "name": "elro_300_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "all"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unitcode"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "systemcode"
@@ -1925,19 +1925,19 @@
       "name": "ehome",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
@@ -1951,31 +1951,31 @@
       "name": "daycom",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "systemcode"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -1989,37 +1989,37 @@
       "name": "conrad_rsl_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "learn"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "all"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
@@ -2033,19 +2033,19 @@
       "name": "conrad_rsl_contact",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "closed"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "opened"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
@@ -2059,31 +2059,31 @@
       "name": "cleverwatts",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "all"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -2097,25 +2097,25 @@
       "name": "clarus_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -2129,31 +2129,31 @@
       "name": "beamish_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "all"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -2167,25 +2167,25 @@
       "name": "auriol",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "battery"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "channel"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
@@ -2203,25 +2203,25 @@
       "name": "arctech_switch_old",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -2239,37 +2239,37 @@
       "name": "arctech_switch",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "learn"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "all"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
@@ -2283,25 +2283,25 @@
       "name": "arctech_screen_old",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "down"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "up"
@@ -2316,37 +2316,37 @@
       "name": "arctech_screen",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "learn"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "all"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "down"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "up"
@@ -2360,25 +2360,25 @@
       "name": "arctech_motion",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
@@ -2392,25 +2392,25 @@
       "name": "arctech_dusk",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "dawn"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "dusk"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
@@ -2424,43 +2424,43 @@
       "name": "arctech_dimmer",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "learn"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "all"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "off"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "on"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "dimlevel"
@@ -2475,31 +2475,31 @@
       "name": "arctech_contact",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "all"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "closed"
         },
         {
-          "data_type": [
+          "vartype": [
             "string"
           ],
           "name": "opened"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "unit"
@@ -2518,43 +2518,43 @@
       "name": "alecto_wx500",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "windgust"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "winddir"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "windavg"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "humidity"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "battery"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -2568,13 +2568,13 @@
       "name": "alecto_wsd17",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -2589,25 +2589,25 @@
       "name": "alecto_ws1700",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "battery"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "humidity"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "id"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "temperature"
@@ -2621,13 +2621,13 @@
       "name": "process",
       "options": [
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "ram"
         },
         {
-          "data_type": [
+          "vartype": [
             "number"
           ],
           "name": "cpu"
