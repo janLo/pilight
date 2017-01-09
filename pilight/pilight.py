@@ -8,6 +8,8 @@ import socket
 import json
 import logging
 
+from pilight import protocol_schema
+
 
 class Client(threading.Thread):
 
@@ -103,6 +105,11 @@ class Client(threading.Thread):
                 answer_1, answer_2)
 
         self.callback = None
+        self.protocol_registry = self._load_protocol_schema()
+
+    def _load_protocol_schema(self):
+        # Use static protocol schema dump until we have PR #322 merged.
+        return protocol_schema.ProtocolRegistry()
 
     def set_callback(self, function):
         """Function to be called when data is received."""
