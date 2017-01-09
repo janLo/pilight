@@ -8,7 +8,7 @@ from os import path
 KEY_PROTOCOLS = "protocols"
 KEY_DEVICES = "devices"
 KEY_NAME = "name"
-KEY_DATA_TYPE = "data_type"
+KEY_DATA_TYPE = "vartype"
 KEY_OPTIONS = "options"
 KEY_PROTOCOL = "protocol"
 
